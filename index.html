@@ -1,89 +1,56 @@
-
+```html
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-	<title>Dragon Ball Legends</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Legends Fan Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<h1>Dragon Ball Legends</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Personaggi</a></li>
-				<li><a href="#">Modalità di gioco</a></li>
-				<li><a href="#">Tornei</a></li>
-				<li><a href="#">Notizie</a></li>
-				<li><a href="#">FAQ</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main>
-		<section class="hero">
-			<h2>Benvenuto in Dragon Ball Legends!</h2>
-			<p>Scopri il gioco con i personaggi di Dragon Ball Z, Super e GT.</p>
-			<a href="#" class="btn-primary">Gioca ora</a>
-		</section>
-
-		<section class="personaggi">
-			<h2>Personaggi</h2>
-			<div class="personaggio">
-				<img src="img/goku.png" alt="Goku">
-				<h3>Goku</h3>
-				<p>Descrizione del personaggio.</p>
-			</div>
-			<div class="personaggio">
-				<img src="img/vegeta.png" alt="Vegeta">
-				<h3>Vegeta</h3>
-				<p>Descrizione del personaggio.</p>
-			</div>
-			<!-- Altri personaggi -->
-		</section>
-
-		<section class="modalita">
-			<h2>Modalità di gioco</h2>
-			<ul>
-				<li>Storia</li>
-				<li>Eventi</li>
-				<li>Sfide</li>
-				<li>PvP</li>
-			</ul>
-		</section>
-
-		<section class="tornei">
-			<h2>Tornei</h2>
-			<p>Scopri quando si svolgeranno i prossimi tornei e come partecipare.</p>
-			<a href="#" class="btn-primary">Scopri di più</a>
-		</section>
-
-		<section class="notizie">
-			<h2>Notizie</h2>
-			<ul>
-				<li><a href="#">Aggiornamento X.X.X</a></li>
-				<li><a href="#">Nuovi personaggi aggiunti</a></li>
-				<li><a href="#">Evento speciale in arrivo</a></li>
-			</ul>
-		</section>
-
-		<section class="faq">
-			<h2>FAQ</h2>
-			<dl>
-				<dt>Come posso ottenere nuovi personaggi?</dt>
-				<dd>Descrizione della risposta.</dd>
-				<dt>Come posso partecipare ai tornei?</dt>
-				<dd>Descrizione della risposta.</dd>
-				<!-- Altre domande e risposte -->
-			</dl>
-		</section>
-	</main>
-
-	<footer>
-		<p>Copyright © 2023 Dragon Ball Legends
-			- Tutti i diritti riservati</p>
-	</footer>
+    <header>
+        <h1>Dragon Ball Legends Fan Site</h1>
+    </header>
+    <nav>
+        <a href="#personaggi">Personaggi</a>
+        <a href="#novita">Novità</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+    <main>
+        <section id="personaggi">
+            <h2>Personaggi</h2>
+            <ul>
+                <li>Goku</li>
+                <li>Vegeta</li>
+                <li>Trunks</li>
+                <!-- Aggiungi altri personaggi qui -->
+            </ul>
+        </section>
+        <section id="novita">
+            <h2>Novità</h2>
+            <article>
+                <h3>Titolo della novità</h3>
+                <p>Descrizione della novità...</p>
+            </article>
+            <!-- Aggiungi altri articoli sulle novità qui -->
+        </section>
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Dragon Ball Legends Fan Site. Tutti i diritti riservati.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
+```
